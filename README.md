@@ -1,3 +1,8 @@
+## Progress Tracker
+#### based on the "Learn Styled Components in React" course on Scrimba
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
