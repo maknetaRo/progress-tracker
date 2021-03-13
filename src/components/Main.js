@@ -14,12 +14,12 @@ const Main = () => {
         {
             id: 2,
             day: "T",
-            progress: 45
+            progress: 25
         },
         {
             id: 3,
             day: "W",
-            progress: 20
+            progress: 40
         },
         {
             id: 4,
@@ -29,19 +29,20 @@ const Main = () => {
         {
             id: 5,
             day: "F",
-            progress: 70
+            progress: 65
         },
         {
             id: 6,
             day: "S",
-            progress: 90
+            progress: 80
         },
         {
             id: 7,
             day: "S",
-            progress: 30
+            progress: 95
         },
     ]
+
     return (
         <>
             <Title>Progress tracker</Title>

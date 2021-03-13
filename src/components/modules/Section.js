@@ -4,7 +4,7 @@ import ProgresBar from './ProgresBar'
 
 const StyledSection = styled.section`
   background-color: #ffffff;
-  border: solid 3px grey;
+  border: ${({weekDay, id}) => (weekDay === id) ? "solid 5px gold" : "solid 3px grey"};
   margin: 4px;
   width: 300px;
   height: 50px;
@@ -19,9 +19,12 @@ const WeekendTitle = styled(WeeklyTitle)`
     color: #61ffb8;
 `
 
-const Section = ({ day, progress }) => {
+const Section = ({ day, progress, id }) => {
+    const today = new Date()
+    const weekDay = today.getDay()
+
     return (
-        <StyledSection>        
+        <StyledSection weekDay={weekDay} id={id}>        
             <WeeklyTitle day={day} />
             <ProgresBar progress={progress} />
         </StyledSection>
