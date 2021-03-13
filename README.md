@@ -1,6 +1,16 @@
 ## Progress Tracker
 #### based on the "Learn Styled Components in React" course on Scrimba
 
+* Final version from the course:
+![](./images-readme/Screenshot from 2021-03-13 13-25-27.png)
+
+
+* Version in which background opacity depends on the progress
+![image](./images-readme/Screenshot from 2021-03-13 11-06-31.png)
+
+* and code:
+![](./images-readme/progress-bar.png)
+
 ---
 
 # Getting Started with Create React App
