@@ -2,7 +2,7 @@
 #### based on the "Learn Styled Components in React" course on Scrimba
 
 * Final version from the course:
-![](./images-readme/Screenshot-13-25-27.png)
+![image](./images-readme/Screenshot-13-25-27.png)
 
 
 * Version in which background opacity depends on the progress
